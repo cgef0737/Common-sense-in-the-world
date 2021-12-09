@@ -18,10 +18,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body{
 color:#555;
-font:12px verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+font:12px ;
 line-height:1.5;
 background:#fff;
 -webkit-text-size-adjust:100%;
+font-family:"ＭＳ Ｐ明朝", serif;
 }
 
 /* リンク設定
@@ -203,7 +204,7 @@ section.content p{margin-bottom:5px;}
 h3.heading{
 padding:3px 0 13px;
 margin-bottom:30px;
-font-size:16px;
+font-size:30px;
 border-bottom:2px solid #ccc;
 }
 
@@ -326,7 +327,8 @@ text-align:right;
 font:italic 1em "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-.post p{padding-bottom:15px;}
+.post p{padding-bottom:30px;
+font-size: 20px;}
 
 .post ul{margin:0 0 10px 10px;}
 
@@ -360,9 +362,9 @@ border-bottom:2px solid #f0f0f0;
 .post h3{
 margin:10px 0 30px;
 padding-bottom:10px;
-font-size:110%;
+font-size:150%;
 font-weight:normal;
-color:#777;
+color:rgb(10, 10, 10);
 border-bottom:2px solid #f0f0f0;
 }
 
@@ -691,3 +693,7 @@ width:98%;
 
 #sub .grid h3{padding:10px 5px;}
 }
+
+.marker_yellow_hoso {
+    background: linear-gradient(transparent 60%, #ffff66 60%);
+    }
